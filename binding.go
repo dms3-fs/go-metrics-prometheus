@@ -4,8 +4,8 @@ import (
 	"strings"
 
 	pro "github.com/gxed/client_golang/prometheus"
-	logging "github.com/ipfs/go-log"
-	metrics "github.com/ipfs/go-metrics-interface"
+	logging "github.com/dms3-fs/go-log"
+	metrics "github.com/dms3-fs/go-metrics-interface"
 )
 
 var log logging.EventLogger = logging.Logger("metrics-prometheus")
